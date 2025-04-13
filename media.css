@@ -1,0 +1,20 @@
+@media only screen and (min-width:200px)and (max-width:575px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .headerAddress{
+        padding: 10px;
+    }
+    .headerAddress p{
+        font-size: 12px;
+    }
+    .headerAddress h3{
+        font-size: 15px;
+    }
+}

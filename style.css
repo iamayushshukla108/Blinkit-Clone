@@ -1,0 +1,43 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.headerleft{    
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding: 24px 30px;
+    border-right: 1px solid #ccc;
+}
+
+.headerAddress{
+    padding: 20px 30px;
+}
+.headerAddress h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.headerAddress p{
+    font-size: 14px;
+}
+
+.searchbox{
+    flex-grow: 1;
+    border: 1px solid red;
+}
+.searchbox button{
+    padding: 15px;
+}
+.searchbox input{
+    flex-grow: 1;
+}
