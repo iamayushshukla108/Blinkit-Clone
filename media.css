@@ -1,20 +1,49 @@
-@media only screen and (min-width:200px)and (max-width:575px){
-    header{
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .headerleft {
         flex-direction: column;
-    }
-    .logo{
+        align-items: flex-start;
+        padding: 10px;
         padding: 10px;
     }
-    .headerleft{
-        justify-content: center;
+
+    .logo {
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
     }
-    .headerAddress{
+
+    .headerAddress {
         padding: 10px;
+        width: 100%;
+        text-align: center;
     }
-    .headerAddress p{
+
+    .headerAddress h3 {
+        font-size: 15px;
+    }
+
+    .headerAddress p {
         font-size: 12px;
     }
-    .headerAddress h3{
-        font-size: 15px;
+
+    .searchdiv {
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .searchbox {
+        width: 100%;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .iteminput {
+        width: 100%;
+    }
+    .headerbtn{
+        display: flex;
     }
 }
